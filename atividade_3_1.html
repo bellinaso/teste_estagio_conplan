@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números ímpares</title>
+</head>
+<body>
+    <script>
+        const numbersArray = Array(20).fill(0).map((i, j) => j + 1);
+        
+        console.log(numbersArray)
+        numbersArray.forEach(num => {
+            if (num%2!==0) console.log(num);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar texto</title>
+</head>
+<body>
+    <p id="text">Texto original</p>
+    <button onclick="changeText('#text')">Mudar texto!</button>
+
+    <script>
+        function changeText(e) {
+            document.querySelector(e).innerText = "Texto modificado"
+        }
+    </script>
+</body>
+</html>

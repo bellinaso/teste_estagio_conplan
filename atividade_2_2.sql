@@ -1,0 +1,1 @@
+SELECT * FROM teste_estagio_conplan.produtos WHERE preco > 50;
